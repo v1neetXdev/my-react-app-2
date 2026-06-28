@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', 'sans-serif';
+}
+
+body{
+    background: #f2f2f2;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card {
+    height : 400px ;
+    width : 370px ;
+    border : 1px solid black ;
+    border-radius: 20px;
+    padding : 20px ;
+    background-color: aliceblue;
+    border : none ;
+    box-shadow: 1px 5px 3px 1px rgba(0, 0, 0, 0.388);
+}
+.card .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card .top img {
+    height : 50px ;
+    width : 50px;
+    border-radius : 50% ;
+    border : 1px solid black ;
+}
+.card .top button {
+    padding :10px ;
+    height : 30px ;
+    width : 120 px ;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    border-radius : 5px ;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    background-color: azure;
+    color: rgba(0, 0, 0, 0.39);
+    font-weight : bold;
+}
+.card .middle {
+    padding-top : 25px ;
+}
+.card .middle h2 span{
+    font-size: small;
+    font-family: system-ui;
+    font-variant: small-caps;
+    font-weight:lighter;
+}
+.card .middle h2 {
+    padding : 3px ;
+}
+.card .middle div {
+    display : flex ;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    
+}
+.card .middle div #one {
+    padding : 7px ;
+    background-color: rgba(0, 0, 0, 0.064);
+    color: rgb(0, 0, 0);
+    margin:10px ;
+    border-radius: 10px;
+}
+.card .middle div #two {
+    padding : 7px ;
+    background-color: rgba(0, 0, 0, 0.064);
+    color: rgb(0, 0, 0);
+    margin:10px ;
+    border-radius: 10px;
+}
+.card .bottom {
+    padding-top : 100px ;
+}
+.card .bottom {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;   
+}
+.card .bottom button{
+    padding : 10px ;
+    height : 40px ;
+    width:105px ;
+    border-radius : 10px ;
+    border :none ;
+    background-color : black ;
+    color : white ;
+    font-weight : bolder ;
+}
+.card .top button .icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin : 3px ;
+    color: rgba(0, 0, 0, 0.354);
+    
+}
+
+
+
+
+
